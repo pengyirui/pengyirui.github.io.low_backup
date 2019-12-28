@@ -163,7 +163,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #263238 0%, #263238 100%);
 }
 
 .text-color {
@@ -404,8 +404,11 @@ header .go-back i {
     font-size: 1.9rem;
 }
 
+/*动态颜色*/
+
 @-webkit-keyframes rainbow {
     0%,
+    /*
     100% {
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
@@ -441,11 +444,21 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+    }
+    */
+    80% {
+        background: rgba(191, 107, 68, 0.75);
+        background: linear-gradient(45deg, rgba(191, 107, 68, 0.75) 0%, rgba(191, 107, 68, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(191, 107, 68, 0.75) 0%, rgba(191, 107, 68, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(191, 107, 68, 0.75) 0%, rgba(191, 107, 68, 0.65) 100%);
     }
 }
 
+
+/*动态颜色*/
 @keyframes rainbow {
     0%,
+    /*
     100% {
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
@@ -476,13 +489,15 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
     }
+    */
     80% {
-        background: rgba(233, 30, 99, 0.75);
-        background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-        background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-        background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
+        background: rgba(191, 107, 68, 0.75);
+        background: linear-gradient(45deg, rgba(191, 107, 68, 0.75) 0%, rgba(191, 107, 68, 0.65) 100%);
+        background: -moz-linear-gradient(135deg, rgba(191, 107, 68, 0.75) 0%, rgba(191, 107, 68, 0.65) 100%);
+        background: -webkit-linear-gradient(135deg, rgba(191, 107, 68, 0.75) 0%, rgba(191, 107, 68, 0.65) 100%);
     }
 }
+
 
 .carousel .indicators {
     padding-bottom: 10px !important;
